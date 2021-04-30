@@ -4,9 +4,11 @@ const express = require('express');
 const app = express();
 const axios = require('axios');
 const fallback = require('./fallbacks.js');
+const compression = require('compression');
 
 app.use('/', express.static('public'));
 app.use('/rooms/:id', express.static('public'));
+app.use(compression());
 
 //***********/ RETRIEVE BUNDLES /***********//
 
