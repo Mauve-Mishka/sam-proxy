@@ -4,4 +4,11 @@ This proxy was built to bring together several cloned Airbnb apps into a single 
 
 ### See the [Live Demo](http://ec2-44-241-38-228.us-west-2.compute.amazonaws.com:5000/rooms/100/)
 
+## Related Projects
+
+  - https://github.com/Mauve-Mishka/user-service
+  - https://github.com/Mauve-Mishka/more-places-service
+  - https://github.com/Mauve-Mishka/header
+
+
 ![Airbnb clone page](https://fec-gnocchi-user-profile.s3-us-west-2.amazonaws.com/ec2-44-241-38-228.us-west-2.compute.amazonaws.com_5000_rooms_100_.png)
