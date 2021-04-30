@@ -131,7 +131,7 @@ app.get('/rooms/:id/getPhotosByRoomID', async (req, res) => {
 
 app.get('/users/:id', async (req, res) => {
   try {
-    const response = await axios.get(`http://ec2-52-24-37-226.us-west-2.compute.amazonaws.com:5007/users/${req.params.id}`);
+    const response = await axios.get(`http://ec2-44-241-38-228.us-west-2.compute.amazonaws.com:5007/users/${req.params.id}`);
     res.send(response.data);
   } catch (err) {
     res.send(fallback.user);
@@ -140,7 +140,7 @@ app.get('/users/:id', async (req, res) => {
 
 app.get('/places/:id', async (req, res) => {
   try {
-    const response = await axios.get(`http://ec2-54-203-153-69.us-west-2.compute.amazonaws.com:5008/places/${req.params.id}`);
+    const response = await axios.get(`http://ec2-44-241-38-228.us-west-2.compute.amazonaws.com:5008/places/${req.params.id}`);
     res.send(response.data);
   } catch (err) {
     res.send(fallback.places);
